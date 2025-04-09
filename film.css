@@ -1,0 +1,75 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #6b3e26;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc99;
+}
+
+/* Section Headings */
+section {
+    padding: 30px 60px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+    color: #6b3e26;
+    border-bottom: 2px solid #6b3e26;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Lists in Sections */
+section ul {
+    padding-left: 20px;
+}
+
+section li {
+    margin-bottom: 8px;
+}
+
+/* Official Site Button */
+.button {
+    background-color: #ff9966;
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: white !important;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e67300;
+}
